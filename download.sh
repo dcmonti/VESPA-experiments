@@ -72,7 +72,7 @@ hg008() {
   done
 
   # HG008-N curated assembly v6.3 (experiment 6)
-  fetch $NIST_S3/HG008N_v6.3/HG008N_v6.3.fasta.gz $HG008/refs/HG008N_v6.3/HG008N_v6.3.fasta.gz
+  fetch $NIST_S3/HG008N_v6.3/HG008N_v6.3.fasta.gz $HG008/refs/HG008N_v6.3/HG008N_v6.3.fasta.gz a5de2e51f0ad423d236036ed61e2101c
   fetch $NIST_S3/HG008N_v6.3/HG008N_v6.3.gaps.bed $HG008/refs/HG008N_v6.3/HG008N_v6.3.gaps.bed 547379a0483e3d807b13f11479fc989a
 }
 
